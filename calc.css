@@ -1,0 +1,78 @@
+
+body{
+    margin: 0;
+}
+
+.background{
+    right: 0;
+    left: 0;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shade{
+    height: 630px;
+    width: 530px;
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: rgb(91, 31, 97, 0.1);
+    border-radius: 14px;
+}
+.calc-back{
+    background-color: rgba(134, 105, 7, 0.3);
+    border-color: rgb(109, 103, 103);
+    border-radius: 15px;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.screen{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    border-color: rgb(109, 103, 103);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.button_row_1, .button_row_2, .button_row_3, .button_row_4, .button_row_5, .button_row_6{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.background button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: rgb(0,0,0,0.3);
+    border-radius: 20px;
+    width: 105px;
+    background-color: rgb(255, 245, 251);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#zero, #equal{
+    width: 165px;
+}
+
+#division, #multi, #add, #substract, #back{
+    background-color: rgb(255, 0, 119);
+    color: rgb(255, 245, 251);
+}
+
+#percent, #rbracket, #lbracket, #power, #minus, #clear{
+    background-color: rgb(153, 132, 64);
+}
